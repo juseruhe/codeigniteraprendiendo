@@ -13,7 +13,9 @@ class Holamundo extends BaseController
 
       $users= new User($db);
 
-	  $user= $users->find('1');
+	  $user= $users->findAll();
+
+       $user= array("users" => $user);
 
 
 		$estructura = view('estructura/header').view('estructura/body',$user);

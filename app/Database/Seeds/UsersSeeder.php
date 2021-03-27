@@ -13,6 +13,10 @@ class UsersSeeder extends Seeder
 	 "email" => "pepito@yahoo.es"
 	];
 
+	$datos = ["name" => "laura",
+	"email" => "laura@yahoo.es"
+	
+];
 
 	$this->db->table('users')->insert($datos);
 
