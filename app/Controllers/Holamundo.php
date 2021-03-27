@@ -12,5 +12,7 @@ class Holamundo extends BaseController
 		$estructura = view('estructura/header').view('estructura/body');
 		
 		return $estructura;
+
+		
 	}
 }
